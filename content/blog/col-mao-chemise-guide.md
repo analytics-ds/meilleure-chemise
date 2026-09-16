@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Le col mao expliqué : origine, différence avec le col classique, morphologies adaptées et occasions de port."
 categories: ["Coupes et style"]
 tags: ["col mao", "col officier", "chemise homme", "chemise femme", "coupe chemise"]
-author: "magalie-ergoz"
+author: "camille-vasseur"
 image: "/images/blog/col-mao-chemise.jpg"
 imageAlt: "Gros plan sur un col de chemise blanche rayée boutonné"
 imageCredit: "Photo par 2Tales via Flickr (CC BY-SA 2.0)"

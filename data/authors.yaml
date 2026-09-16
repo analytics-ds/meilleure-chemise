@@ -50,7 +50,7 @@ magalie-ergoz:
   id: magalie-ergoz
   name: Magalie Ergoz
   type: person
-  avatar: /images/authors/magalie-ergoz.webp
+  avatar: /images/authors/magalie-ergoz.png
   linkedinUrl: ""
   jobTitle:
     fr: Blogueuse mode & beauté
@@ -235,3 +235,101 @@ sophie-martin:
     - retraite
     - credit
     - banque
+
+camille-vasseur:
+  id: camille-vasseur
+  name: Camille Vasseur
+  type: person
+  avatar: /images/authors/camille-vasseur.png
+  linkedinUrl: ""
+  jobTitle:
+    fr: Styliste de formation & rédactrice mode masculine
+    en: Trained stylist & menswear writer
+  role:
+    fr: Experte coupes et style chemise
+    en: Shirt cuts and style expert
+  bio:
+    fr: "Camille Vasseur a suivi une formation de styliste avant de se consacrer à la rédaction. Elle décortique les coupes, les cols et les détails de construction d'une chemise pour aider chacun à trouver la coupe qui lui va vraiment."
+    en: "Camille Vasseur trained as a stylist before moving into writing. She breaks down shirt cuts, collars and construction details to help everyone find the fit that truly suits them."
+  expertise:
+    - Coupes de chemise
+    - Cols et détails
+    - Silhouette masculine
+    - Morphologie
+    - Tendances mode homme
+  topics:
+    - coupe
+    - col
+    - slim
+    - classique
+    - manche
+    - silhouette
+    - morphologie
+    - style
+    - tendance
+    - mao
+    - boutonne
+
+hugo-delattre:
+  id: hugo-delattre
+  name: Hugo Delattre
+  type: person
+  avatar: /images/authors/hugo-delattre.png
+  linkedinUrl: ""
+  jobTitle:
+    fr: Conseiller en image & rédacteur dress code
+    en: Image consultant & dress code writer
+  role:
+    fr: Expert occasions et dress code
+    en: Occasions and dress code expert
+  bio:
+    fr: "Hugo Delattre est conseiller en image et accompagne des particuliers sur leurs tenues d'occasion depuis plus de 8 ans. Il traduit les codes vestimentaires de chaque événement, du mariage au bureau, en choix concrets de chemise."
+    en: "Hugo Delattre is an image consultant who has advised individuals on occasion wear for over 8 years. He translates the dress codes of every event, from weddings to the office, into concrete shirt choices."
+  expertise:
+    - Dress code
+    - Tenue de mariage
+    - Tenue de bureau
+    - Codes vestimentaires
+    - Cérémonie
+  topics:
+    - mariage
+    - ceremonie
+    - bureau
+    - dress code
+    - occasion
+    - business
+    - casual
+    - soiree
+    - entretien embauche
+
+elise-thomas:
+  id: elise-thomas
+  name: Élise Thomas
+  type: person
+  avatar: /images/authors/elise-thomas.png
+  linkedinUrl: ""
+  jobTitle:
+    fr: Spécialiste entretien textile & rédactrice
+    en: Textile care specialist & writer
+  role:
+    fr: Experte entretien et durabilité
+    en: Care and durability expert
+  bio:
+    fr: "Élise Thomas s'est spécialisée dans l'entretien textile après plusieurs années en pressing haut de gamme. Elle explique comment laver, repasser et faire durer une chemise sans l'abîmer, matière par matière."
+    en: "Élise Thomas specialized in textile care after several years in a high-end dry cleaning business. She explains how to wash, iron and make a shirt last without damaging it, fabric by fabric."
+  expertise:
+    - Entretien textile
+    - Lavage
+    - Repassage
+    - Durabilité
+    - Pressing
+  topics:
+    - entretien
+    - lavage
+    - repassage
+    - tache
+    - durabilite
+    - pressing
+    - sechage
+    - amidon
+    - froissement

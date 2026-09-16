@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Washing, drying, ironing and storage: the right habits to care for a cotton shirt and extend its lifespan."
 categories: ["Care and Durability"]
 tags: ["shirt care", "washing cotton", "ironing shirt", "men's shirt", "textile durability"]
-author: "magalie-ergoz"
+author: "elise-thomas"
 image: "/images/blog/entretien-chemise-coton.jpg"
 imageAlt: "Stack of folded cotton shirts in various patterns"
 imageCredit: "Photo by Joelk75 via Flickr (CC BY 2.0)"

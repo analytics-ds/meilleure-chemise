@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Chemise de mariage homme : dress code, col adapté, matière et couleur selon le rôle (marié, témoin, invité)."
 categories: ["Occasions et dress code"]
 tags: ["chemise mariage", "dress code mariage", "chemise homme", "tenue mariage", "col chemise"]
-author: "magalie-ergoz"
+author: "hugo-delattre"
 image: "/images/blog/chemise-mariage-homme.jpg"
 imageAlt: "Veste de costume noire posée sur mannequin avec chemise blanche et cravate"
 imageCredit: "Photo par Menswear Market via Flickr (CC BY 2.0)"

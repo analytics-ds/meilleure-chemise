@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Men's wedding shirt: dress code, right collar, fabric and color depending on your role (groom, best man, guest)."
 categories: ["Occasions and Dress Code"]
 tags: ["wedding shirt", "wedding dress code", "men's shirt", "wedding outfit", "shirt collar"]
-author: "magalie-ergoz"
+author: "hugo-delattre"
 image: "/images/blog/chemise-mariage-homme.jpg"
 imageAlt: "Black suit jacket on a mannequin with white shirt and tie"
 imageCredit: "Photo by Menswear Market via Flickr (CC BY 2.0)"

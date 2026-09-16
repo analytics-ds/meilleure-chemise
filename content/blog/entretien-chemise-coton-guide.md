@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "Lavage, séchage, repassage et stockage : les bons gestes pour entretenir une chemise en coton et prolonger sa durée de vie."
 categories: ["Entretien et durabilité"]
 tags: ["entretien chemise", "lavage coton", "repassage chemise", "chemise homme", "durabilité textile"]
-author: "magalie-ergoz"
+author: "elise-thomas"
 image: "/images/blog/entretien-chemise-coton.jpg"
 imageAlt: "Pile de chemises en coton pliées et rangées, motifs variés"
 imageCredit: "Photo par Joelk75 via Flickr (CC BY 2.0)"

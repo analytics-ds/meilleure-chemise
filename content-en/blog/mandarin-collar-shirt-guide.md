@@ -6,7 +6,7 @@ lastmod: "2026-09-16"
 description: "The mandarin collar explained: origin, difference from the classic collar, flattering body types and occasions to wear it."
 categories: ["Cuts and Styles"]
 tags: ["mandarin collar", "band collar", "men's shirt", "women's shirt", "shirt cut"]
-author: "magalie-ergoz"
+author: "camille-vasseur"
 image: "/images/blog/col-mao-chemise.jpg"
 imageAlt: "Close-up of a buttoned white striped shirt collar"
 imageCredit: "Photo by 2Tales via Flickr (CC BY-SA 2.0)"
