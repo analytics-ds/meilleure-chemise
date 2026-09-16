@@ -166,16 +166,18 @@ img {
 }
 
 .site-logo {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: var(--primary);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.site-logo-img {
+    height: 44px;
+    width: auto;
+    display: block;
 }
 
 .site-logo:hover {
-    color: var(--accent);
+    opacity: 0.85;
 }
 
 .site-nav {

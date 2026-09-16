@@ -93,8 +93,8 @@ defaultContentLanguageInSubdir = false
   author_name = "Magalie Ergoz"
   author_url = ""
   author_job_title = "Blogueuse mode & beaute"
-  default_og_image = "/images/og-default.jpg"
-  logo = "/favicon.svg"
+  default_og_image = "/images/logo-full.png"
+  logo = "/images/logo.png"
   founding_year = "2026"
   expertise = ["Chemise homme et femme", "Matieres textiles", "Style et dress code", "Entretien textile"]
 
