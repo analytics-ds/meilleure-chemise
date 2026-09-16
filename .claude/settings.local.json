@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/themes/comparatif-pro/assets/css /Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/themes/comparatif-pro/layouts/_default /Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/themes/comparatif-pro/layouts/partials)",
+      "Bash(cp /Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/.claude/templates/main.css /Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/themes/comparatif-pro/assets/css/main.css)",
+      "Read(//Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/themes/comparatif-pro/assets/**)",
+      "Bash(mkdir -p /Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/.github/workflows)",
+      "Bash(cp /Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/.claude/templates/hugo-workflow.yml /Users/leocottu/Library/CloudStorage/GoogleDrive-leo@datashake.fr/.shortcut-targets-by-id/1i_julKCeosWb2XGFlM91QXPo9jGIIWkd/🐸 Froggies/SEO-Claude-Léo/Comparatif-Pro/.github/workflows/hugo.yml)"
+    ]
+  }
+}

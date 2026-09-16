@@ -1,0 +1,28 @@
+# Meilleure Chemise
+
+> Le guide independant pour choisir, porter et entretenir sa chemise homme et femme : matieres, coupes, occasions et entretien.
+
+## A propos
+
+Meilleure Chemise est un guide editorial independant dedie a la chemise homme et femme. Le site couvre le choix des matieres (lin, coton), les coupes et formes de col, les occasions de port (professionnel, mariage, decontracte) et l'entretien textile (lavage, repassage, stockage).
+
+## Contenu principal
+
+- Matieres et tissus : lin, coton, poplin, oxford, poids et tissage
+- Coupes et style : cols (mao, francais, italien, boutonne), morphologies
+- Occasions et dress code : mariage, business, casual, black tie
+- Entretien et durabilite : lavage, sechage, repassage, stockage
+
+## Articles recents
+
+- Chemise en lin ou en coton : laquelle choisir ? (https://meilleure-chemise.com/blog/chemise-lin-ou-coton/)
+- Qu'est-ce qu'un col mao et a qui va-t-il ? (https://meilleure-chemise.com/blog/col-mao-chemise-guide/)
+- Quelle chemise porter pour un mariage homme ? (https://meilleure-chemise.com/blog/quelle-chemise-porter-mariage-homme/)
+- Comment entretenir sa chemise en coton pour la faire durer ? (https://meilleure-chemise.com/blog/entretien-chemise-coton-guide/)
+
+## Informations techniques
+
+- Generateur : Hugo
+- Hebergement : GitHub Pages
+- Sitemap : https://meilleure-chemise.com/sitemap.xml
+- RSS : https://meilleure-chemise.com/index.xml
