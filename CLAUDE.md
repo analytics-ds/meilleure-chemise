@@ -147,6 +147,18 @@ Avec ce decoupage en dossiers non-imbriques, chaque langue est scannee une seule
 
 **Piege annexe decouvert en meme temps** : plusieurs partials du theme utilisaient `relURL` (URL relative a la langue par defaut) au lieu de `relLangURL` (URL relative a la langue courante) sur des chemins ecrits en dur (`"/"`, `"blog/"`, `"/tags/"`, `"categories/%s/"`). Consequence : sur les pages anglaises, les liens de fil d'Ariane, tags, logo et plan du site pointaient vers les URLs francaises (sans prefixe `/en/`). Corrige dans `single.html`, `home.html`, `list.html`, `404.html`, `sitemap-html.html`, `footer.html`, `header.html`. Regle a appliquer sur tout futur partial : **toujours `relLangURL` pour un chemin ecrit en dur, `relURL` reserve aux assets partages (images, favicon) qui ne sont jamais prefixes par langue**.
 
+## Piege accents FR : contenu genere sans accents, puis URLs dupliquees au correctif
+
+**Symptome observe** (2026-09-16) : tout le contenu FR genere a la creation du site (articles, categories, home, templates, `data/authors.yaml`, `llms.txt`) etait ecrit sans aucun accent francais ("matieres" au lieu de "matières", "independant" au lieu de "indépendant", etc.), alors que la regle d'ecriture datashake l'impose systematiquement. Repere par Leo a la relecture du site en ligne.
+
+**Cause etablie** : au moment de la redaction des articles et de la configuration du site (creation + premiers articles), le contenu a ete produit sans accents, sans raison technique identifiee (pas de contrainte Hugo qui l'imposerait). A traiter comme une consigne de redaction a rappeler explicitement a chaque generation de contenu FR sur ce blog.
+
+**Effet de bord du correctif** : reintroduire les accents dans les valeurs `categories` du frontmatter (ex: "Entretien et durabilite" → "Entretien et durabilité") a fait apparaitre des pages de taxonomie DUPLIQUEES (`/categories/entretien-et-durabilite/` ET `/categories/entretien-et-durabilité/`), Hugo generant par defaut un slug qui conserve les accents dans les URLs. Corrige en ajoutant `removePathAccents = true` a la racine de `hugo.toml`, qui force Hugo a nettoyer les accents dans les slugs de taxonomies/tags tout en gardant les titres affiches accentues. Statut : **resolu**.
+
+**A verifier avant toute nouvelle generation de contenu sur ce blog** : relire un extrait d'article genere pour confirmer la presence des accents avant de considerer la tache terminee. Si `removePathAccents = true` venait a etre retire de `hugo.toml`, verifier immediatement l'absence de doublons de pages de taxonomie.
+
+**A remonter a Damien** : ce piege (accents manquants dans le contenu + `removePathAccents` necessaire des qu'un frontmatter categorise en francais accentue) touche potentiellement tous les blogs du reseau generes avec ce template.
+
 **A remonter a Damien** : ce piege (contentDir imbrique + relURL vs relLangURL) touche potentiellement tous les blogs du reseau construits avec ce template en configuration bilingue par dossier. A verifier sur les autres blogs mutualises actifs.
 
 ## Comment repondre a l'utilisateur
