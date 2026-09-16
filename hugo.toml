@@ -1,6 +1,7 @@
 baseURL = "https://meilleure-chemise.com"
 title = "Meilleure Chemise"
 theme = "meilleure-chemise-theme"
+removePathAccents = true
 
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
@@ -8,7 +9,7 @@ defaultContentLanguageInSubdir = false
 [languages]
   [languages.fr]
     languageCode = "fr-FR"
-    languageName = "Francais"
+    languageName = "Français"
     weight = 1
     title = "Meilleure Chemise"
     contentDir = "content"
@@ -16,7 +17,7 @@ defaultContentLanguageInSubdir = false
       category = "categories"
       tag = "tags"
     [languages.fr.params]
-      description = "Le guide independant pour choisir, porter et entretenir sa chemise homme et femme : matieres, coupes, occasions et entretien."
+      description = "Le guide indépendant pour choisir, porter et entretenir sa chemise homme et femme : matières, coupes, occasions et entretien."
 
   [languages.en]
     languageCode = "en-US"
@@ -35,7 +36,7 @@ defaultContentLanguageInSubdir = false
   url = "/"
   weight = 1
 [[languages.fr.menus.main]]
-  name = "Matieres et tissus"
+  name = "Matières et tissus"
   url = "/categories/matieres-et-tissus/"
   weight = 2
 [[languages.fr.menus.main]]
@@ -47,7 +48,7 @@ defaultContentLanguageInSubdir = false
   url = "/categories/occasions-et-dress-code/"
   weight = 4
 [[languages.fr.menus.main]]
-  name = "Entretien et durabilite"
+  name = "Entretien et durabilité"
   url = "/categories/entretien-et-durabilite/"
   weight = 5
 [[languages.fr.menus.main]]
@@ -92,11 +93,11 @@ defaultContentLanguageInSubdir = false
 [params]
   author_name = "Magalie Ergoz"
   author_url = ""
-  author_job_title = "Blogueuse mode & beaute"
+  author_job_title = "Blogueuse mode & beauté"
   default_og_image = "/images/logo-full.png"
   logo = "/images/logo.png"
   founding_year = "2026"
-  expertise = ["Chemise homme et femme", "Matieres textiles", "Style et dress code", "Entretien textile"]
+  expertise = ["Chemise homme et femme", "Matières textiles", "Style et dress code", "Entretien textile"]
 
 [related]
   includeNewer = true

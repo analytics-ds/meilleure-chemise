@@ -12,7 +12,7 @@
         {{ else }}
         <span class="hero-badge">Guide chemise homme et femme</span>
         <h1>Bien choisir, porter et entretenir sa chemise</h1>
-        <p class="hero-description">Matieres, coupes, occasions et entretien : le guide independant pour faire les bons choix, chemise apres chemise.</p>
+        <p class="hero-description">Matières, coupes, occasions et entretien : le guide indépendant pour faire les bons choix, chemise après chemise.</p>
         <a href="{{ "blog/" | relLangURL }}" class="btn-primary">Explorez le blog</a>
         {{ end }}
     </div>
@@ -21,7 +21,7 @@
 <!-- Categories Section -->
 <section class="categories-section">
     <div class="container">
-        <h2 class="section-title">{{ if eq $lang "en" }}Our categories{{ else }}Nos categories{{ end }}</h2>
+        <h2 class="section-title">{{ if eq $lang "en" }}Our categories{{ else }}Nos catégories{{ end }}</h2>
         <div class="grid-categories">
             {{ range .Site.Taxonomies.categories }}
             <a href="{{ .Page.RelPermalink }}" class="category-card">
