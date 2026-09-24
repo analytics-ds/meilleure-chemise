@@ -1,0 +1,940 @@
+# Roadmap editoriale - meilleure-chemise.com
+#
+# FICHIER UNIQUE. Il remplace l'ancien couple roadmap.yaml + roadmap-informationnelle.yaml,
+# fusionnes le 2026-09-24. La routine ne lit QUE ce fichier.
+#
+# ROUTINE ASSOCIEE : "meilleure-chemise-1-article-semaine"
+#   cron 0 6 * * 3 (tous les mercredis, 06:00 UTC). 1 declenchement = 1 article FR+EN.
+#
+# REGLE DE SELECTION, prioritaire sur tout le reste
+#   La routine publie la PREMIERE entree du fichier dont status vaut todo, dans l'ordre
+#   d'apparition. Elle n'improvise jamais un sujet, elle ne choisit jamais la categorie
+#   la moins fournie. scheduled_date est indicatif : si une semaine saute, l'ordre du
+#   fichier fait foi, pas la date. Si toutes les entrees sont done, la routine s'arrete
+#   sans rien publier et le signale.
+#
+# ORDRE VOULU
+#   Les 20 premieres entrees sont les sujets piliers et les tetes de silo. Les suivantes
+#   sont la couverture informationnelle exhaustive de la thematique chemise.
+#
+# SILO "COL DE CHEMISE"
+#   "types de col de chemise" est le PILIER du silo col : hub de maillage, les entrees col
+#   italien, col boutonne, col mao et col cutaway lient vers lui sans le dupliquer.
+#
+# CLIENT Cafe Coton, regles issues de son Obsidian
+#   Aucune fiche produit Cafe Coton (0 sur 70 verifiees le 2026-09-23) ne revendique
+#   "sans repassage" : l'article sur ce sujet ne pose AUCUN lien vers le client.
+#   Sur les sujets repassage, la page a citer est
+#   https://www.cafecoton.com/fr/comment-repasser-sa-chemise-cafe-coton-4 (position 7,3).
+#   Vocabulaire impose : popeline, oxford, jersey, gaze de coton, tencel, lin, coton ;
+#   slim, classique, grandes longueurs de manche ; col boutonne, col mao, petit col, gorge
+#   cachee, poignets mousquetaires ; business, casual, luxe, mariage. La marque s'ecrit
+#   toujours "Cafe Coton", avec l'accent et en deux mots.
+#   Chaque article peut citer UNE page reelle de cafecoton.com, verifiee en HTTP 200 avant
+#   citation, et seulement si elle a un sens direct pour le sujet exact de l'article.
+#
+# ANTI-CANNIBALISATION RESEAU
+#   "meilleure marque de chemise homme" est volontairement ABSENT : le sujet est tenu par
+#   comparatif-mode (Manon Lamache). A arbitrer avec elle avant tout ajout ici.
+#
+# SOURCE de la couverture informationnelle
+#   bonnegueule.fr, top blog francais du vetement homme : pages les mieux positionnees
+#   relevees via Haloscan le 2026-09-23, converties en sujets et dedupliquees.
+#
+# volume : volume mensuel Haloscan releve les 2026-09-23 et 2026-09-24. null = aucune donnee
+#          remontee, ce n'est PAS un volume nul. Sur la chemise, le volume mesurable est
+#          transactionnel : la couche informationnelle se justifie par la valeur de citation
+#          dans les moteurs IA, pas par le clic organique.
+# kd     : KVI Haloscan quand il existe, un indice de valeur, pas une difficulte. null sinon.
+
+articles:
+  - kw: "surchemise homme"
+    category: "Coupes et style"
+    volume: 6700
+    kd: 43
+    scheduled_date: "2026-09-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise blanche femme"
+    category: "Coupes et style"
+    volume: 10100
+    kd: 41
+    scheduled_date: "2026-10-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise blanche homme"
+    category: "Coupes et style"
+    volume: 6600
+    kd: 33
+    scheduled_date: "2026-10-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise flanelle homme"
+    category: "Matières et tissus"
+    volume: 3273
+    kd: 25
+    scheduled_date: "2026-10-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise cintree femme"
+    category: "Coupes et style"
+    volume: 3000
+    kd: 33
+    scheduled_date: "2026-10-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "popeline de coton"
+    category: "Matières et tissus"
+    volume: 2800
+    kd: 26
+    scheduled_date: "2026-11-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise oxford"
+    category: "Matières et tissus"
+    volume: 1200
+    kd: 35
+    scheduled_date: "2026-11-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "gaze de coton"
+    category: "Matières et tissus"
+    volume: 1100
+    kd: 36
+    scheduled_date: "2026-11-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "plier une chemise"
+    category: "Entretien et durabilité"
+    volume: 1000
+    kd: 34
+    scheduled_date: "2026-11-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise costume homme"
+    category: "Occasions et dress code"
+    volume: 733
+    kd: 24
+    scheduled_date: "2026-12-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "repasser une chemise"
+    category: "Entretien et durabilité"
+    volume: 500
+    kd: 31
+    scheduled_date: "2026-12-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise en soie femme"
+    category: "Matières et tissus"
+    volume: 300
+    kd: 28
+    scheduled_date: "2026-12-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise a carreaux homme"
+    category: "Coupes et style"
+    volume: 275
+    kd: 38
+    scheduled_date: "2026-12-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "business casual homme"
+    category: "Occasions et dress code"
+    volume: 260
+    kd: 34
+    scheduled_date: "2026-12-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "poignets mousquetaires"
+    category: "Coupes et style"
+    volume: 210
+    kd: 29
+    scheduled_date: "2027-01-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise sans repassage"
+    category: "Entretien et durabilité"
+    volume: 200
+    kd: 35
+    scheduled_date: "2027-01-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "col de chemise jauni"
+    category: "Entretien et durabilité"
+    volume: 191
+    kd: 15
+    scheduled_date: "2027-01-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tenue entretien embauche homme"
+    category: "Occasions et dress code"
+    volume: 20
+    kd: 26
+    scheduled_date: "2027-01-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise homme grande taille"
+    category: "Coupes et style"
+    volume: 100
+    kd: 28
+    scheduled_date: "2027-02-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "laver une chemise en lin"
+    category: "Entretien et durabilité"
+    volume: 50
+    kd: 20
+    scheduled_date: "2027-02-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "types de col de chemise"
+    category: "Coupes et style"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "popeline ou oxford"
+    category: "Matières et tissus"
+    volume: 20
+    kd: 22
+    scheduled_date: "2027-02-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "laver une chemise en machine"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise avec ou sans cravate"
+    category: "Occasions et dress code"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "col italien ou français"
+    category: "Coupes et style"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "twill de coton"
+    category: "Matières et tissus"
+    volume: 300
+    kd: 25
+    scheduled_date: "2027-03-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "température de lavage d'une chemise"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "mettre sa chemise dans le pantalon"
+    category: "Occasions et dress code"
+    volume: null
+    kd: null
+    scheduled_date: "2027-04-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "col boutonné"
+    category: "Coupes et style"
+    volume: 70
+    kd: 28
+    scheduled_date: "2027-04-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chambray"
+    category: "Matières et tissus"
+    volume: 3100
+    kd: 37
+    scheduled_date: "2027-04-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "repasser le col et les manches"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-04-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise pour un entretien d'embauche"
+    category: "Occasions et dress code"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "col cutaway"
+    category: "Coupes et style"
+    volume: 210
+    kd: 20
+    scheduled_date: "2027-05-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "jersey de coton chemise"
+    category: "Matières et tissus"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "sécher une chemise sans l'abîmer"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise en casual friday"
+    category: "Occasions et dress code"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "gorge cachée chemise"
+    category: "Coupes et style"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "seersucker"
+    category: "Matières et tissus"
+    volume: 2500
+    kd: 29
+    scheduled_date: "2027-06-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "empeser un col de chemise"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise de cérémonie"
+    category: "Occasions et dress code"
+    volume: 36
+    kd: 26
+    scheduled_date: "2027-06-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "poignet simple ou double"
+    category: "Coupes et style"
+    volume: null
+    kd: null
+    scheduled_date: "2027-07-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fil à fil chemise"
+    category: "Matières et tissus"
+    volume: 170
+    kd: 28
+    scheduled_date: "2027-07-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "détacher une chemise blanche"
+    category: "Entretien et durabilité"
+    volume: 20
+    kd: null
+    scheduled_date: "2027-07-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise sous un pull"
+    category: "Occasions et dress code"
+    volume: 70
+    kd: 20
+    scheduled_date: "2027-07-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "empiècement dos chemise"
+    category: "Coupes et style"
+    volume: 30
+    kd: null
+    scheduled_date: "2027-08-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "natté chemise"
+    category: "Matières et tissus"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "enlever une tache de transpiration sur une chemise"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise pour une soirée"
+    category: "Occasions et dress code"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ourlet arrondi chemise"
+    category: "Coupes et style"
+    volume: 20
+    kd: null
+    scheduled_date: "2027-09-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "satin de coton chemise"
+    category: "Matières et tissus"
+    volume: null
+    kd: null
+    scheduled_date: "2027-09-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise qui rétrécit au lavage"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: 38
+    scheduled_date: "2027-09-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise en hiver"
+    category: "Occasions et dress code"
+    volume: 30
+    kd: 25
+    scheduled_date: "2027-09-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise slim ou regular"
+    category: "Coupes et style"
+    volume: 30
+    kd: 1
+    scheduled_date: "2027-09-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "coton égyptien"
+    category: "Matières et tissus"
+    volume: null
+    kd: 23
+    scheduled_date: "2027-10-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bouloche sur une chemise"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-10-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "combien de chemises avoir"
+    category: "Occasions et dress code"
+    volume: null
+    kd: 15
+    scheduled_date: "2027-10-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise oversize"
+    category: "Coupes et style"
+    volume: 900
+    kd: 26
+    scheduled_date: "2027-10-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "coton peigné ou cardé"
+    category: "Matières et tissus"
+    volume: null
+    kd: null
+    scheduled_date: "2027-11-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "coudre un bouton de chemise"
+    category: "Entretien et durabilité"
+    volume: 70
+    kd: 4
+    scheduled_date: "2027-11-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "morphologie et chemise homme"
+    category: "Coupes et style"
+    volume: null
+    kd: null
+    scheduled_date: "2027-11-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "grammage d'un tissu de chemise"
+    category: "Matières et tissus"
+    volume: null
+    kd: null
+    scheduled_date: "2027-11-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "remplacer un col de chemise"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-12-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "guide des tailles chemise homme"
+    category: "Coupes et style"
+    volume: 260
+    kd: 30
+    scheduled_date: "2027-12-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "armure d'un tissu de chemise"
+    category: "Matières et tissus"
+    volume: null
+    kd: null
+    scheduled_date: "2027-12-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "durée de vie d'une chemise"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2027-12-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tour de cou chemise"
+    category: "Coupes et style"
+    volume: 70
+    kd: 20
+    scheduled_date: "2027-12-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise en viscose"
+    category: "Matières et tissus"
+    volume: 590
+    kd: 12
+    scheduled_date: "2028-01-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ranger ses chemises"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2028-01-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "longueur de manche chemise"
+    category: "Coupes et style"
+    volume: 20
+    kd: 19
+    scheduled_date: "2028-01-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise polyester ou coton"
+    category: "Matières et tissus"
+    volume: 10
+    kd: 21
+    scheduled_date: "2028-01-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "plier une chemise pour voyager"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2028-02-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise trop grande"
+    category: "Coupes et style"
+    volume: 140
+    kd: 8
+    scheduled_date: "2028-02-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "reconnaître un bon coton"
+    category: "Matières et tissus"
+    volume: null
+    kd: null
+    scheduled_date: "2028-02-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pressing ou lavage maison pour une chemise"
+    category: "Entretien et durabilité"
+    volume: null
+    kd: null
+    scheduled_date: "2028-02-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise à rayures"
+    category: "Coupes et style"
+    volume: 720
+    kd: 25
+    scheduled_date: "2028-03-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise en denim"
+    category: "Matières et tissus"
+    volume: 110
+    kd: 44
+    scheduled_date: "2028-03-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise unie ou imprimée"
+    category: "Coupes et style"
+    volume: null
+    kd: null
+    scheduled_date: "2028-03-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "tencel"
+    category: "Matières et tissus"
+    volume: 4100
+    kd: 10
+    scheduled_date: "2028-03-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemisier ou chemise"
+    category: "Coupes et style"
+    volume: 30
+    kd: 23
+    scheduled_date: "2028-03-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "histoire de la chemise"
+    category: "Matières et tissus"
+    volume: 70
+    kd: 1
+    scheduled_date: "2028-04-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "chemise sur mesure ou prêt à porter"
+    category: "Coupes et style"
+    volume: null
+    kd: null
+    scheduled_date: "2028-04-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
