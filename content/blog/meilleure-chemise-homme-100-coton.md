@@ -7,6 +7,9 @@ description: "Quelle chemise homme est vraiment en 100 % coton ? Relevé des com
 categories: ["Matières et tissus"]
 tags: ["coton", "100% coton", "matière chemise", "chemise homme", "composition", "achat"]
 author: "magalie-ergoz"
+image: "/images/blog/meilleure-chemise-homme-100-coton.jpg"
+imageAlt: "Col et poignet d'une chemise blanche en coton, tissage popeline visible"
+imageCredit: "Photo par Liana S via Unsplash"
 faq:
   - question: "Quelle est la meilleure chemise homme 100 % coton ?"
     answer: "Il n'existe pas une marque unique dont la totalité du catalogue chemise est en 100 % coton. Sur un relevé des compositions annoncées réalisé le 25 septembre 2026, Figaret affiche 100 % coton sur 214 de ses 250 modèles de chemises homme (86 %), Café Coton sur 43 modèles d'un échantillon aléatoire de 60 fiches (72 %), Bexley sur la large majorité des modèles de sa collection homme, et les chemises sans repassage de Charles Tyrwhitt sont également en 100 % coton. Le reste du catalogue de chacune de ces marques comprend du lin pur, de la laine et des mélanges coton-lin ou coton-lyocell. La meilleure chemise 100 % coton est donc celle dont la fiche produit annonce explicitement cette composition, marque par marque et modèle par modèle."

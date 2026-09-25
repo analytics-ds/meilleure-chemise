@@ -7,6 +7,9 @@ description: "Which men's shirts are genuinely 100% cotton? A survey of the fabr
 categories: ["Fabrics and Materials"]
 tags: ["cotton", "100% cotton", "shirt fabric", "men's shirt", "composition", "buying guide"]
 author: "magalie-ergoz"
+image: "/images/blog/meilleure-chemise-homme-100-coton.jpg"
+imageAlt: "Collar and cuff of a white cotton shirt, poplin weave visible"
+imageCredit: "Photo by Liana S via Unsplash"
 faq:
   - question: "What is the best men's 100% cotton shirt?"
     answer: "No single brand offers a shirt catalogue that is entirely 100% cotton. In a survey of declared compositions carried out on 25 September 2026, Figaret lists 100% cotton on 214 of its 250 men's shirt models (86%), Café Coton on 43 models out of a random sample of 60 product pages (72%), Bexley on the large majority of its men's collection, and Charles Tyrwhitt's flagship non-iron shirts are also 100% cotton. The remainder of each catalogue includes pure linen, wool, and cotton-linen or cotton-lyocell blends. The best 100% cotton shirt is therefore the one whose product page explicitly states that composition, brand by brand and model by model."
