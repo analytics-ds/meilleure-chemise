@@ -167,3 +167,32 @@ Avec ce decoupage en dossiers non-imbriques, chaque langue est scannee une seule
 - Pas de jargon technique sans explication
 - Reponses structurees avec listes a puces
 - Pas d'emoji sauf demande explicite
+
+## Piege deploiement : 404 apres un push reussi (ID Token timeout)
+
+**Symptome observe** (2026-09-29) : deux articles pousses sur `main`, commit bien present sur le remote,
+mais les 4 URLs (FR et EN) repondent en 404 alors que les articles anterieurs repondent en 200.
+
+**Cause etablie** : le workflow "Deploy Hugo site to Pages" a echoue, non pas sur le build Hugo qui est
+passe normalement, mais sur le job **Deploy to GitHub Pages** :
+```
+Error: Failed to get ID Token.
+Error Message: Request timeout: /156//idtoken/...
+##[error]Ensure GITHUB_TOKEN has permission "id-token: write".
+```
+Le message d'erreur oriente a tort vers un probleme de permissions. Il n'en est rien : le workflow n'avait
+pas change et les trois runs precedents etaient passes avec la meme configuration. C'est un **timeout
+transitoire du service d'ID token de GitHub Actions**, cote infrastructure.
+
+**Correctif applique** : `gh run rerun <run-id> --failed`, succes en 22 secondes, les 4 URLs sont repassees
+en 200. Aucune modification de contenu, de workflow ou de permissions.
+
+**Reflexe a avoir quand un article est en 404 apres publication**, dans cet ordre, avant de toucher au
+contenu :
+1. `gh run list --limit 5` : le dernier run est-il en `failure` ?
+2. `gh run view <run-id> --log-failed` : l'echec est-il sur le build Hugo ou sur le deploy ?
+3. Echec sur le deploy avec un timeout : `gh run rerun <run-id> --failed`, c'est suffisant.
+4. Echec sur le build Hugo : la, le contenu est en cause, debugger le frontmatter ou les templates.
+
+Statut : **resolu**. A remonter a Damien, le piege vaut pour tous les blogs du reseau deployes par
+GitHub Pages.
