@@ -31,3 +31,4 @@ Les entrees roadmap encore en todo qui le frolent doivent rester sur leur angle 
 ## Semaine 40 (28/09/2026 - 04/10/2026)
 - 2026-09-29 | Chemise à manches extra longues : comment choisir quand on est grand ? (FR+EN) | Coupes et style | prompt GEO Café Coton "chemise homme manches extra longues pour les grands" | Figaret relevé en live (4 cm manche, 5 cm dos), Café Coton /fr/grandes-longueurs 21 produits disponibles (nb_produit_total), cols 37-42
 - 2026-09-29 | Quelle chemise homme choisir pour le bureau ? (FR+EN) | Occasions et dress code | prompt GEO Café Coton "meilleure chemise homme pour le bureau" | Café Coton /fr/chemises-business 303 produits relevés en live
+- 2026-09-30 | Surchemise homme : comment la choisir et la porter ? (FR+EN) | Coupes et style | roadmap.yaml, entrée "surchemise homme" | Café Coton /fr/surchemise-homme 6 modèles relevés en live (150-160 €), citation Very Good Lord 2025
